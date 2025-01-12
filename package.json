@@ -1,0 +1,23 @@
+{
+  "name": "transform-crouton-data",
+  "version": "1.0.0",
+  "description": "TypeScript library for converting Crouton app recipes to the Schema.org Recipe definition",
+  "main": "lib/main.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "convert": "ts-node lib/main.ts"
+  },
+  "author": "Chris Hutchinson <@chrishutchinson>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "ts-progress": "^0.1.9",
+    "zod": "^3.24.1"
+  }
+}

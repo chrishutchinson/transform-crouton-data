@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules
+
+# Recipe files
+assets/recipes/*.crumb
+
+# Output
+output
+*.zip
