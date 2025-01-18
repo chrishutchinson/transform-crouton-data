@@ -16,6 +16,6 @@
 
 ## Why?
 
-I wanted to migrate my recipes from [Crouton](https://crouton.app/) to [Mealie](https://mealie.io/). Mealie doesn't have a migration script for Crouton (just yet), but they do support importing the [Schema.org Recipe definition](https://schema.org/Recipe), via the [Nexcloud Cookbook](https://apps.nextcloud.com/apps/cookbook) migrator.
+I wanted to migrate my recipes from [Crouton](https://crouton.app/) to [Mealie](https://mealie.io/). Mealie doesn't have a migration script for Crouton (just yet), but they do support importing the [Schema.org Recipe definition](https://schema.org/Recipe), via the [Nextcloud Cookbook](https://apps.nextcloud.com/apps/cookbook) migrator.
 
 This library converts Crouton recipes to the Schema.org Recipe definition (structured as if they were a Nextcloud Cookbook export), so that they can be imported into Mealie.
